@@ -1,5 +1,18 @@
 # cypress-sortacontains
 
+
+## Installation
+
+```sh
+npm install cypress-sortacontains
+```
+
+Once downloaded, add the following line to `cypress/support/index.js` to import the commands into your Cypress project:
+
+```js
+require('cypress-sortacontains');
+```
+
 ## Example 1: Similarity threshold
 
 Find elements with at least 90% text similarity to 'Sign up now for free':
